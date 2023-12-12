@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Create directories
+mkdir -p javascript
+mkdir -p 0-commas-checks
+mkdir -p test_dir
+
+
+# Set permissions for files and directories
+chmod 775 javascript
+chmod 775 0-commas-checks
+chmod 775 test_dir
+
+# Create files with specific timestamps
+touch -c 0-commas
+touch -c 1-empty_casks
+touch -c 2-gifs
+touch -c 3-directories
+touch -c 4-zeros
+touch -c 5-rot13
+touch -c 6-odd
+touch -c 7-sort_rot13
+touch -c 8-end_of_list
+touch -c Kris_is_awesome\ \:\)
+touch -c Makefile
+touch -c quote
+touch -c ........gif
+touch -c ..hello.gif
+touch -c Rona_napping.gif
+touch -c root.gif
+touch -c ..something
+touch -c test.var
+
